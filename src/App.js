@@ -1,5 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import header from './images/header-banner.jpg'
 
 function App() {
 	return (
@@ -7,7 +8,7 @@ function App() {
 			{/* Header */}
 			<header className="main-header my-3">
 				<div className="main-header-background-image">
-					<img src="https://s3.us-east-2.amazonaws.com/fueler.io-images/brands/tcc/header-banner.jfif" alt="" />
+					<img src={header} alt="" />
 				</div>
 				<div className="container">
 					<div className="main-header-profile mb-4">
