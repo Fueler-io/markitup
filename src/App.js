@@ -149,7 +149,7 @@ function App() {
 									<div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
 										<div className='d-flex justify-content-start flex-wrap align-items-center'>
 											<div className='card-icon my-3 mr-2'>
-												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1641149894/fueler-emoji/cvvhxbsssxjqy26ctcfe.png" alt="" />
+												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1641149854/fueler-emoji/bktoklagl7uufpx0cw9a.png" alt="" />
 											</div>
 											<div className='card-content'>
 												<p className='mb-0 text-basic fw-500'>
@@ -175,7 +175,7 @@ function App() {
 									<div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
 										<div className='d-flex justify-content-start flex-wrap align-items-center'>
 											<div className='card-icon my-3 mr-2'>
-												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1641149894/fueler-emoji/cvvhxbsssxjqy26ctcfe.png" alt="" />
+												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1639893913/fueler-emoji/ukxpqmqbbax8w9naf5zo.png" alt="" />
 											</div>
 											<div className='card-content'>
 												<p className='mb-0 text-basic fw-500'>
@@ -201,7 +201,7 @@ function App() {
 									<div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
 										<div className='d-flex justify-content-start flex-wrap align-items-center'>
 											<div className='card-icon my-3 mr-2'>
-												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1641149894/fueler-emoji/cvvhxbsssxjqy26ctcfe.png" alt="" />
+												<img src="https://res.cloudinary.com/kiwismedia/image/upload/v1641149327/fueler-emoji/zqo4sksyqcjjmx4k4azy.png" alt="" />
 											</div>
 											<div className='card-content'>
 												<p className='mb-0 text-basic fw-500'>
