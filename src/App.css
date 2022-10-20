@@ -1,200 +1,187 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
-@import url("https://fonts.cdnfonts.com/css/metropolis-2");
-
-
-.main{
-	font-family: 'Metropolis', sans-serif;
+.main {
+  font-family: "Metropolis", sans-serif;
 }
 
-.primary-color{
-	color: #0A0433;
+.primary-color {
+  color: #0a0433;
 }
-.text-gray{
-	color: #8F92A1;
+.text-gray {
+  color: #8f92a1;
 }
-.text-basic{
-	color: #3E3D47;
+.text-basic {
+  color: #3e3d47;
 }
-.fw-500{
-	font-weight: 500;
+.fw-500 {
+  font-weight: 500;
 }
-.primary-button{
-	background: #0A0433;
-	color: #fff;
-	border-radius: 6px;
+.primary-button {
+  background: #0a0433;
+  color: #fff;
+  border-radius: 6px;
 }
-a{
-	text-decoration: none;
-	color: unset;
+a {
+  text-decoration: underline;
+  color: #0a0433;
 }
-.primary-button:hover{
-	/* add shadow */
+.primary-button:hover {
+  /* add shadow */
 }
 /* .main-header{
   height: 250px;
 } */
 
-
-.main-header .main-header-background-image{
-	height: 100%;
-	/* background-image: url('https://s3.us-east-2.amazonaws.com/fueler.io-images/brands/tcc/header-banner.jfif') ;
+.main-header .main-header-background-image {
+  height: 100%;
+  /* background-image: url('https://s3.us-east-2.amazonaws.com/fueler.io-images/brands/tcc/header-banner.jfif') ;
 	background-size: cover;
 	background-position: center; */
-	border-radius: 1rem;
-	overflow: hidden;
-	
+  border-radius: 1rem;
+  overflow: hidden;
 }
-.main-header .main-header-background-image img{
-	width: -webkit-fill-available;
-	
+.main-header .main-header-background-image img {
+  width: -webkit-fill-available;
 }
 
-.main-header .container{
-	position: relative;
+.main-header .container {
+  position: relative;
 }
 
-.main-header-profile{
-	width: 100%;
-	position: absolute;
-	top: -65px;
-	
+.main-header-profile {
+  width: 100%;
+  position: absolute;
+  top: -65px;
 }
 
-.main-header-profile img{
-	height: 130px;
-	width: 130px;
-	border: 2.5px solid white;
-	backdrop-filter: blur(26.3948px);
+.main-header-profile img {
+  height: 130px;
+  width: 130px;
+  border: 2.5px solid white;
+  backdrop-filter: blur(26.3948px);
 }
-.main-header-profile h2{
-	
+.main-header-profile h2 {
 }
-#website-button-botom{
-	display: none;
+#website-button-botom {
+  display: none;
 }
 
 /* main body */
-.main-body{
-
-	position: relative;
-	top: 12rem;
+.main-body {
+  position: relative;
+  top: 12rem;
 }
 
-.main-body-heading{
-	
+.main-body-heading {
 }
-.card{
-	border-radius: 1rem;
-	border: none;
+.card {
+  border-radius: 1rem;
+  border: none;
 }
-.card-pink{
-	background: #FFE8FB;
+.card-pink {
+  background: #ffe8fb;
 }
-.card-green{
-	background: #F7FAE8;
+.card-green {
+  background: #f7fae8;
 }
-.card-teal{
-	background: #E7F6F7;
+.card-teal {
+  background: #e7f6f7;
 }
-.card-peach{
-	background: #FFEBE8;
+.card-peach {
+  background: #ffebe8;
 }
-.card-blue{
-	background: #EAF2FF;
-}
-
-.card-icon{
-	height: 64px;
-	width: 64px;
-	background: #fff;
-	border-radius: 50%;
-	display: grid;
-	place-content: center;
-	margin-right: 1rem;
-}
-.card-icon img{
-	vertical-align: middle;
-	width: 32px;
+.card-blue {
+  background: #eaf2ff;
 }
 
-.card-tag-button{
-	background: #FFFFFF;
-	border: 1px solid rgba(10, 4, 51, 0.3);
-	border-radius: 8px;
-	color: #0A0433;
-	font-weight: 600;
-	font-size: .9rem;
-
+.card-icon {
+  height: 64px;
+  width: 64px;
+  background: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  margin-right: 1rem;
+}
+.card-icon img {
+  vertical-align: middle;
+  width: 32px;
 }
 
-footer{
-	position: relative;
-	top: 10rem;
-
-	color: gray;
+.card-tag-button {
+  background: #ffffff;
+  border: 1px solid rgba(10, 4, 51, 0.3);
+  border-radius: 8px;
+  color: #0a0433;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
-@media screen and (min-width:769px) {
-	.card-content{
-		width: 75%;
-	}
+footer {
+  position: relative;
+  top: 10rem;
+
+  color: gray;
 }
 
-@media screen and (max-width:768px) {
-  	/* .main-header {
+@media screen and (min-width: 769px) {
+  .card-content {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .main-header {
     	  height: 180px;
     } */
-	.main-body-heading{
-		margin-top: 2.8rem;
-	}
+  .main-body-heading {
+    margin-top: 2.8rem;
+  }
 
-	.main-header .main-header-background-image {
-		height: 100%;
-		/* background-image: url('https://s3.us-east-2.amazonaws.com/fueler.io-images/brands/tcc/header-banner.jfif');
+  .main-header .main-header-background-image {
+    height: 100%;
+    /* background-image: url('https://s3.us-east-2.amazonaws.com/fueler.io-images/brands/tcc/header-banner.jfif');
 		background-size: cover;
 		background-position: left; */
-		border-radius: 8px;
-		overflow: hidden;
-	}
+    border-radius: 8px;
+    overflow: hidden;
+  }
 
-	.main-header-profile{
-		width: fit-content;
-		position: absolute;
-		top: -40px;
-	}
+  .main-header-profile {
+    width: fit-content;
+    position: absolute;
+    top: -40px;
+  }
 
-	.main-header-profile img {
-		height: 80px;
-		width: 80px;
-	}
-	#website-button{
-		display: none;
-	}
+  .main-header-profile img {
+    height: 80px;
+    width: 80px;
+  }
+  #website-button {
+    display: none;
+  }
 
+  #website-button-botom {
+    display: inline-block;
+  }
 
-	#website-button-botom {
-		display: inline-block;
-	}
+  .main-body {
+    position: relative;
+    top: 15rem;
+  }
 
-	.main-body {
+  footer {
+    position: relative;
+    top: 13rem;
 
-		position: relative;
-		top: 15rem;
-	}
+    color: gray;
+  }
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
 
-	footer {
-		position: relative;
-		top: 13rem;
-
-		color: gray;
-	}
-	.flex-sm-wrap{
-		flex-wrap: wrap;
-	}
-
-	.card-tag{
-		margin-top: 1rem !important;
-		margin-bottom: 1rem !important;
-	}
-
+  .card-tag {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
 }
